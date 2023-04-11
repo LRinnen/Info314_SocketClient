@@ -1,0 +1,25 @@
+*** Server djxmmx.net / Port 17
+
+Command:
+> java TCPClient dyxmmx.net 17
+
+Response:
+> "There are three things in life thats certain: death, taxes, and no one can cover 85..."
+
+
+*** Server time.nist.gov / Port 13
+
+Command:
+> java TCPClient time.nist.gov 13
+
+Response:
+> 60043 23-04-09 04:30:01 50 0 0 893.5 UTC(NIST) *
+
+
+*** Server tcpbin.com / Port 4242
+
+Command:
+> java TCPClient tcpbin.com 4242 hello hi hey
+
+Response:
+> hello hi hey
